@@ -2,6 +2,8 @@
 
 This is the official repository for the paper Colony Grounded SAM2: Zero-shot detection and segmentation of bacterial colonies using foundation models, from the SPIE medical imaging 2026 conference.
 
+<img width="10517" height="4242" alt="workflow_spie_korp25" src="https://github.com/user-attachments/assets/5db841dc-68fe-4d31-9dd0-66370dfb5de0" />
+
 ## Installation
 As this work highly builds upon IDEA's Grounded SAM2, we first download their repository: 
 ### 1. Clone Grounded SAM2
@@ -73,3 +75,4 @@ python infer.py \
 - `--crop_coords` : Optional crop coordinates (`x1 y1 x2 y2`) to focus on a region, either a single set of coordinates, a list of size num_images with sets of coordinates, or None for no cropping
 - `--box_threshold` : Detection box confidence threshold (default: 0.25)  
 - `--text_threshold` : Text grounding confidence threshold (default: 0.25)  
+
